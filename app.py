@@ -30,8 +30,7 @@ def clean(doc):
 
 with open("dt_model.pkl","rb") as f:
     model=pickle.load(f)
-
-st.image("anime-sharingan-red-eyes-naruto-shippuuden-wallpaper-preview_enhanced.jpg")
+    
 
 st.title("Twitter Data Sentiment Analysis")
 
